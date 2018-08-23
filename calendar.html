@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#d89f52">
+    <meta name="msapplication-navbutton-color" content="#d89f52">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#d89f52">
+    <title>Vanilla JS Calendar</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+<!-- Trick Question: Is the header color of this page the same or different from the body background color? -->
+</head>
+<body>
+    
+    <!-- <hr> -->
+    
+    <!-- Target element to render calendar inside: -->
+    <div id="calendarThis"> 
+    </div>
+    <input type="text" id="user_yr" placeholder="Enter year."  onkeypress="return event.charCode >= 48 && event.charCode <= 57" onpast="return false">
+    
+    <div class="container">
+
+    </div>
+
+    
+    <script src="calendar.js"></script>
+    
+
+</body>
+<!-- Trick Answer: Both the header and the body are both pure white. Tis an optical illusion. ;) --> 
+</html>
